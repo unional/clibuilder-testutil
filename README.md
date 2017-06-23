@@ -1,4 +1,4 @@
-# @unional/clibuilder-testutil
+# clibuilder-testutil
 
 [![unstable][unstable-image]][unstable-url]
 [![NPM version][npm-image]][npm-url]

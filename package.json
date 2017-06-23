@@ -1,5 +1,5 @@
 {
-  "name": "@unional/clibuilder-testutil",
+  "name": "clibuilder-testutil",
   "description": "Test util for clibuilder",
   "version": "0.14.0",
   "main": "dist-es5/index.js",
