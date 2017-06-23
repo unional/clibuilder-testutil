@@ -18,7 +18,7 @@
     "dc": "npm run dependency-check",
     "demo": "npm run prepare && node scripts/demo.js",
     "dependency-check": "dependency-check . --unused --no-dev && dependency-check . --missing --no-dev",
-    "lint": "tslint \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json --type-check \"src/**/*.ts\"",
     "postpublish": "git push",
     "prepare": "npm run build",
     "preversion": "git pull && npm run verify && npm run build-es2015",
