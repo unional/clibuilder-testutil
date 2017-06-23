@@ -1,12 +1,13 @@
 {
   "name": "@unional/clibuilder-testutil",
-  "description": "",
+  "description": "Test util for clibuilder",
   "version": "0.0.0",
-  "main": "dist/es5/index.js",
-  "module": "dist/es2015/index.js",
-  "typings": "dist/es5/index.d.ts",
+  "main": "dist-es5/index.js",
+  "module": "dist-es2015/index.js",
+  "typings": "dist-es5/index.d.ts",
   "files": [
-    "dist"
+    "dist-es5",
+    "dist-es2015"
   ],
   "scripts": {
     "build": "npm run clean && npm run build-es5 && npm run build-es2015",
@@ -57,28 +58,17 @@
       "**/fixtures/**/*"
     ]
   },
-  "peerDependencies": {
-    "aurelia-logging": ">=1.2.0"
-  },
   "devDependencies": {
-    "aurelia-logging-color": "^0.5.5",
-    "aurelia-polyfills": "^1.2.1",
     "ava": "^0.19.1",
-    "browser-env": "^2.0.31",
     "clibuilder": "^0.14.0",
     "core-js": "^2.4.1",
     "dependency-check": "^2.9.1",
     "eslint": "^4.0.0",
     "eslint-config-unional": "^0.2.3",
     "nyc": "^11.0.2",
-    "param-case": "^2.1.1",
-    "pascal-case": "^2.0.1",
     "rimraf": "^2.6.1",
     "tslint": "^5.4.3",
     "tslint-config-unional": "^0.8.0",
     "typescript": "^2.3.4"
-  },
-  "dependencies": {
-    "aurelia-logging": "^1.3.1"
   }
 }
