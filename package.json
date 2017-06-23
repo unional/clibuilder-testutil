@@ -70,5 +70,8 @@
     "tslint": "^5.4.3",
     "tslint-config-unional": "^0.8.0",
     "typescript": "^2.3.4"
+  },
+  "peerDependencies": {
+    "clibuilder": ">=0.14"
   }
 }
