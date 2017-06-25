@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "ava": "^0.19.1",
-    "clibuilder": "^0.14.0",
+    "clibuilder": "^0.14.3",
     "core-js": "^2.4.1",
     "dependency-check": "^2.9.1",
     "eslint": "^4.0.0",
