@@ -1,8 +1,14 @@
 import { CommandSpec } from 'clibuilder'
 
-export const echoCommand = {
+export const echoCommand: CommandSpec = {
   name: 'echo',
-  run(argv) {
+  arguments: [{
+    name: 'args',
+    description: 'any argument(s)',
+    multiple: true
+  }],
+  description: 'Echoing input arguments',
+  run(_args, argv) {
     this.ui.info(...argv)
   }
-} as CommandSpec
+}
