@@ -6,14 +6,13 @@
 [![Build status][travis-image]][travis-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
 
-## Deprecation Notice
-
-`clibuilder-testutil` has been added back to `clibuilder`. You can access them from 'clibuilder/dist-es5/test-util'
-
-
 Test util for [`clibuilder`](https://github.com/unional/clibuilder).
 
 I find myself copying the code to all consuming projects so I release it as a separate package.
+
+## Deprecation Notice
+
+`clibuilder-testutil` has been added back to `clibuilder`. You can access them from 'clibuilder/dist-es5/test-util'
 
 ## Contribute
 
